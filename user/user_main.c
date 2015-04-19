@@ -76,7 +76,7 @@ void ICACHE_FLASH_ATTR at_recvTask()
 
 void user_init(void)
 {
-	uart_init(BIT_RATE_115200, BIT_RATE_115200);
+	uart_init(BIT_RATE_74880, BIT_RATE_74880);
 	int wifiMode = wifi_get_opmode();
 
 	uart0_sendStr("\r\nCustom Server\r\n");
